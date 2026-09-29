@@ -7,7 +7,7 @@
 ## Usar
     python comparador.py                        # BCN ⇄ SVQ, viernes→domingo hasta fin de año
     python comparador.py --sabado --lunes       # más combinaciones
-    python comparador.py --umbral 60            # aviso si baja de 60 €
+    python comparador.py --umbral 65            # aviso si baja de 60 €
 
 Variables opcionales:
 - PROXY_URL=http://user:pass@host:port   (proxy residencial rotativo)
