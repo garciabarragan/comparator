@@ -1,0 +1,33 @@
+name: Comparador findes
+
+on:
+  schedule:
+    - cron: "17 7 * * *"    # UTC (≈ 9:17 en Barcelona en verano, 8:17 en invierno)
+    - cron: "43 19 * * *"
+  workflow_dispatch:          # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install httpx
+      - name: Buscar precios
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python comparador.py --umbral 60 --sabado --lunes | tee ultimo_resultado.txt
+      - name: Guardar histórico
+        run: |
+          git config user.name "comparador-bot"
+          git config user.email "comparador-bot@users.noreply.github.com"
+          git add precios.sqlite ultimo_resultado.txt
+          git commit -m "precios $(date -u +%F_%H%M)" || echo "sin cambios"
+          git push
