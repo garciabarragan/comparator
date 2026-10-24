@@ -3,7 +3,7 @@ Findes más baratos BCN ⇄ SVQ (2026-10-25 → 2026-12-31)
 
    TOTAL  IDA                                VUELTA                            
   67.17€  Fri 18/12 05:50  43.55€ Ryanair    Sun 20/12 11:20  23.62€ Ryanair   
-  67.17€  Fri 18/12 05:50  43.55€ Ryanair    Mon 21/12 14:40  23.62€ Ryanair   
+  67.17€  Fri 18/12 05:50  43.55€ Ryanair    Mon 21/12 20:25  23.62€ Ryanair   
   69.37€  Fri 04/12 05:50  39.15€ Ryanair    Sun 06/12 11:20  30.22€ Ryanair   
   72.67€  Fri 27/11 05:50  32.55€ Ryanair    Mon 30/11 20:25  40.12€ Ryanair   
   72.67€  Sat 28/11 20:50  32.55€ Ryanair    Mon 30/11 20:25  40.12€ Ryanair   
@@ -11,4 +11,4 @@ Findes más baratos BCN ⇄ SVQ (2026-10-25 → 2026-12-31)
   74.87€  Fri 11/12 05:50  40.25€ Ryanair    Sun 13/12 11:20  34.62€ Ryanair   
   74.87€  Fri 11/12 05:50  40.25€ Ryanair    Mon 14/12 08:25  34.62€ Ryanair   
   89.17€  Sat 19/12 20:50  65.55€ Ryanair    Sun 20/12 11:20  23.62€ Ryanair   
-  89.17€  Sat 19/12 20:50  65.55€ Ryanair    Mon 21/12 14:40  23.62€ Ryanair   
+  89.17€  Sat 19/12 20:50  65.55€ Ryanair    Mon 21/12 20:25  23.62€ Ryanair   
